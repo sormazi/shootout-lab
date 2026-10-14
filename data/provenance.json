@@ -1,0 +1,41 @@
+{
+  "retrieved_utc_date": "2026-10-14",
+  "authors": [
+    "Silvan Vollmer",
+    "David Schoch",
+    "Ulrik Brandes"
+  ],
+  "doi": "10.1371/journal.pone.0315017",
+  "osf": "https://osf.io/t6qj7/",
+  "source_files": [
+    {
+      "file": "data_final.csv",
+      "url": "https://osf.io/download/8bxdf/",
+      "bytes": 21518408,
+      "sha256": "419908e1cc8e5658c769f447b4bfa090f7012c2fd1a035066a2cca8ca47e2f96"
+    },
+    {
+      "file": "R_analysis.R",
+      "url": "https://osf.io/download/6sfhb/",
+      "bytes": 35232,
+      "sha256": "5a229167dd3507cf64f7d45ebdd926b808bc41c00f36cba02c8390a832b0dfc2"
+    },
+    {
+      "file": "upstream_README.md",
+      "url": "https://osf.io/download/d9xyq/",
+      "bytes": 227,
+      "sha256": "a62de48a5c1849bcf44e6c845e33b297509edd43c6855fea10a15fe27a9b6b1d"
+    },
+    {
+      "file": "osf_node_metadata.json",
+      "url": "https://api.osf.io/v2/nodes/t6qj7/",
+      "bytes": 4245,
+      "sha256": "1c859f83d01bea7f3dcd0d7f849996d868617ef98b854735a4737b55000d43f0"
+    }
+  ],
+  "derived_files": {
+    "d2_shootout_kicks.csv": "D2 TRUE, phase Penalty Shoot-Out; strict alternating sequence and terminal score validation; normalized by empirical.py",
+    "empirical_results.json": "2,000 shootout-cluster bootstrap replicates, seed 20261014"
+  },
+  "license_note": "PLOS article is CC BY. Upstream OSF metadata exposes no license relationship; no separate dataset/code license was located. Preserve attribution and verify redistribution terms before public hosting."
+}

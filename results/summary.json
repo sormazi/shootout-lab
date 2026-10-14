@@ -1,0 +1,157 @@
+{
+  "crossover75": 0.6720991428856451,
+  "reproduction": [
+    {
+      "m": 5,
+      "n": 4,
+      "p": 0.75,
+      "q_balancing": 0.6004569470259371,
+      "paper_q": 0.6,
+      "rounds": 6.061067926637199,
+      "paper_rounds": 6.06,
+      "rounds_at_balancing": 6.059675503824491,
+      "printed_prop2_rounds": 10.40589171704856
+    },
+    {
+      "m": 4,
+      "n": 3,
+      "p": 0.75,
+      "q_balancing": 0.5617204053120273,
+      "paper_q": 0.56,
+      "rounds": 4.710791037951532,
+      "paper_rounds": 4.71,
+      "rounds_at_balancing": 4.80554661841243,
+      "printed_prop2_rounds": 7.778920896204849
+    },
+    {
+      "m": 3,
+      "n": 2,
+      "p": 0.75,
+      "q_balancing": 0.49437702887059365,
+      "paper_q": 0.5,
+      "rounds": 3.333333333333333,
+      "paper_rounds": 3.33,
+      "rounds_at_balancing": 3.537597558158789,
+      "printed_prop2_rounds": 5.205761316872426
+    },
+    {
+      "m": 2,
+      "n": 1,
+      "p": 0.75,
+      "q_balancing": 0.3447656821927537,
+      "paper_q": 0.34,
+      "rounds": 1.8518518518518516,
+      "paper_rounds": 1.85,
+      "rounds_at_balancing": 2.213346147637773,
+      "printed_prop2_rounds": 2.6543209876543217
+    }
+  ],
+  "pilot": [
+    {
+      "p": 0.75,
+      "q": 0.6,
+      "standard": 0.7282416666666666,
+      "target": 0.5008192348727328
+    },
+    {
+      "p": 0.75,
+      "q": 0.65,
+      "standard": 0.6610521455652573,
+      "target": 0.4109411009614984
+    },
+    {
+      "p": 0.75,
+      "q": 0.7,
+      "standard": 0.584872998046875,
+      "target": 0.3225702194852383
+    },
+    {
+      "p": 0.75,
+      "q": 0.75,
+      "standard": 0.5,
+      "target": 0.238752
+    }
+  ],
+  "robust": {
+    "paper_neighborhood": {
+      "kind": "target",
+      "m": 5,
+      "n": 4,
+      "order": "ABAB",
+      "worst_bias": 0.0987370130118208,
+      "bias_upper": 0.0987370130118208,
+      "worst_rounds": 6.235455254091136,
+      "duration_upper": 6.235455254091136,
+      "feasible": true
+    },
+    "includes_null": {
+      "kind": "target",
+      "m": 1,
+      "n": 1,
+      "order": "ABAB",
+      "worst_bias": 0.1829268292682925,
+      "bias_upper": 0.1829268292682925,
+      "worst_rounds": 3.1250000000000013,
+      "duration_upper": 3.1250000000000013,
+      "feasible": true
+    }
+  },
+  "mc_holdout": {
+    "win_a": 0.5172,
+    "ci95": [
+      0.5115435794164134,
+      0.5228520162747712
+    ],
+    "win_a_upper": 0.5172,
+    "censored": 0,
+    "N": 30000,
+    "seed": 90001,
+    "rounds_restricted": 5.462366666666667,
+    "kicks_restricted": 10.635466666666666,
+    "sudden_death": 0.2750666666666667,
+    "tail": 0.022266666666666667,
+    "rounds_se": 0.009875921221799235
+  },
+  "mc_validation": [
+    {
+      "kind": "target",
+      "exact_win": 0.5008192348727328,
+      "mc_win": 0.50502,
+      "ci_low": 0.5006373908581413,
+      "ci_high": 0.5094018378361863,
+      "exact_rounds": 6.061067926637199,
+      "mc_rounds": 6.0688,
+      "rounds_se": 0.0076945250220079395,
+      "censored": 0,
+      "N": 50000,
+      "seed": 20261014
+    },
+    {
+      "kind": "standard",
+      "exact_win": 0.7282416666666666,
+      "mc_win": 0.72702,
+      "ci_low": 0.7230978446579293,
+      "ci_high": 0.7309072745026779,
+      "exact_rounds": 5.188597222222222,
+      "mc_rounds": 5.19558,
+      "rounds_se": 0.0066427292424903,
+      "censored": 0,
+      "N": 50000,
+      "seed": 20261015
+    },
+    {
+      "kind": "sequential",
+      "exact_win": 0.5572226032616978,
+      "mc_win": 0.55862,
+      "ci_low": 0.5542632729740239,
+      "ci_high": 0.5629677202653153,
+      "exact_rounds": 5.685045470710764,
+      "mc_rounds": 5.69464,
+      "rounds_se": 0.005207499185689364,
+      "censored": 0,
+      "N": 50000,
+      "seed": 20261016
+    }
+  ],
+  "finite_grid_only": true
+}

@@ -1,0 +1,453 @@
+{
+  "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0315017",
+  "dataset_download": "https://osf.io/download/8bxdf/",
+  "sha256": "419908e1cc8e5658c769f447b4bfa090f7012c2fd1a035066a2cca8ca47e2f96",
+  "data_rows": {
+    "D1": 60287,
+    "D2": 51007,
+    "D3": 45402
+  },
+  "seed": 20261014,
+  "bootstrap_replicates": 2000,
+  "bootstrap_unit": "entire shootout",
+  "shootouts": 1759,
+  "first_team_wins": 859,
+  "first_team_win_rate": 0.48834565093803295,
+  "first_team_wilson_95": [
+    0.46503680419798477,
+    0.5117052903364675
+  ],
+  "first_team_bootstrap_95": [
+    0.46559124502558275,
+    0.511654349061967
+  ],
+  "big5_cups": {
+    "shootouts": 513,
+    "first_team_wins": 241,
+    "first_team_win_rate": 0.4697855750487329
+  },
+  "conversion": 0.7463894619901603,
+  "shootout_kicks": 18903,
+  "sudden_death_fraction": 0.3013075611142695,
+  "estimates": [
+    {
+      "kind": "position",
+      "label": "1",
+      "goals": 1358,
+      "attempts": 1759,
+      "conversion": 0.7720295622512792,
+      "shootout_bootstrap_95": [
+        0.7527003979533826,
+        0.7919272313814667
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "2",
+      "goals": 1342,
+      "attempts": 1759,
+      "conversion": 0.762933484934622,
+      "shootout_bootstrap_95": [
+        0.7436043206367254,
+        0.7833996588971006
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "3",
+      "goals": 1276,
+      "attempts": 1759,
+      "conversion": 0.7254121660034111,
+      "shootout_bootstrap_95": [
+        0.7043774872086412,
+        0.7464468447981808
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "4",
+      "goals": 1335,
+      "attempts": 1759,
+      "conversion": 0.7589539511085844,
+      "shootout_bootstrap_95": [
+        0.7390562819783968,
+        0.7799886299033542
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "5",
+      "goals": 1320,
+      "attempts": 1759,
+      "conversion": 0.7504263786242183,
+      "shootout_bootstrap_95": [
+        0.7305287094940307,
+        0.7703240477544059
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "6",
+      "goals": 1302,
+      "attempts": 1759,
+      "conversion": 0.740193291642979,
+      "shootout_bootstrap_95": [
+        0.7202956225127913,
+        0.7612279704377487
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "7",
+      "goals": 1264,
+      "attempts": 1736,
+      "conversion": 0.728110599078341,
+      "shootout_bootstrap_95": [
+        0.7076823166828762,
+        0.7491384794321012
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "8",
+      "goals": 1194,
+      "attempts": 1624,
+      "conversion": 0.7352216748768473,
+      "shootout_bootstrap_95": [
+        0.7131234928266178,
+        0.7562667148640833
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "9",
+      "goals": 1029,
+      "attempts": 1379,
+      "conversion": 0.7461928934010152,
+      "shootout_bootstrap_95": [
+        0.7237123552333993,
+        0.768046214769258
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "10",
+      "goals": 757,
+      "attempts": 998,
+      "conversion": 0.7585170340681363,
+      "shootout_bootstrap_95": [
+        0.7313570461985154,
+        0.7847992039738382
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "11",
+      "goals": 395,
+      "attempts": 530,
+      "conversion": 0.7452830188679245,
+      "shootout_bootstrap_95": [
+        0.7078227424749164,
+        0.7811290958225425
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "12",
+      "goals": 406,
+      "attempts": 530,
+      "conversion": 0.7660377358490567,
+      "shootout_bootstrap_95": [
+        0.7302752293577982,
+        0.7988407966768255
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "13",
+      "goals": 251,
+      "attempts": 321,
+      "conversion": 0.7819314641744548,
+      "shootout_bootstrap_95": [
+        0.7337408001334792,
+        0.8258069359682263
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "14",
+      "goals": 222,
+      "attempts": 321,
+      "conversion": 0.6915887850467289,
+      "shootout_bootstrap_95": [
+        0.6371389432485323,
+        0.7418397626112759
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "15",
+      "goals": 146,
+      "attempts": 200,
+      "conversion": 0.73,
+      "shootout_bootstrap_95": [
+        0.6683931214973036,
+        0.7918831984721315
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "16",
+      "goals": 141,
+      "attempts": 200,
+      "conversion": 0.705,
+      "shootout_bootstrap_95": [
+        0.6432154905985326,
+        0.7680431047362917
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "17",
+      "goals": 65,
+      "attempts": 105,
+      "conversion": 0.6190476190476191,
+      "shootout_bootstrap_95": [
+        0.5217391304347826,
+        0.7094086021505376
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "18",
+      "goals": 84,
+      "attempts": 105,
+      "conversion": 0.8,
+      "shootout_bootstrap_95": [
+        0.721135752688172,
+        0.872345640383813
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "19",
+      "goals": 39,
+      "attempts": 56,
+      "conversion": 0.6964285714285714,
+      "shootout_bootstrap_95": [
+        0.5714285714285714,
+        0.8113207547169812
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "20",
+      "goals": 39,
+      "attempts": 56,
+      "conversion": 0.6964285714285714,
+      "shootout_bootstrap_95": [
+        0.5818181818181818,
+        0.8148148148148148
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "21",
+      "goals": 29,
+      "attempts": 36,
+      "conversion": 0.8055555555555556,
+      "shootout_bootstrap_95": [
+        0.6664634146341463,
+        0.9259485094850948
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "22",
+      "goals": 26,
+      "attempts": 36,
+      "conversion": 0.7222222222222222,
+      "shootout_bootstrap_95": [
+        0.5666666666666667,
+        0.8636670761670759
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "23",
+      "goals": 17,
+      "attempts": 25,
+      "conversion": 0.68,
+      "shootout_bootstrap_95": [
+        0.47368421052631576,
+        0.8571428571428571
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "24",
+      "goals": 21,
+      "attempts": 25,
+      "conversion": 0.84,
+      "shootout_bootstrap_95": [
+        0.6666666666666666,
+        0.967741935483871
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "25",
+      "goals": 12,
+      "attempts": 13,
+      "conversion": 0.9230769230769231,
+      "shootout_bootstrap_95": [
+        0.7333333333333333,
+        1.0
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "26",
+      "goals": 11,
+      "attempts": 13,
+      "conversion": 0.8461538461538461,
+      "shootout_bootstrap_95": [
+        0.625,
+        1.0
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "27",
+      "goals": 6,
+      "attempts": 10,
+      "conversion": 0.6,
+      "shootout_bootstrap_95": [
+        0.25,
+        0.8888888888888888
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "28",
+      "goals": 9,
+      "attempts": 10,
+      "conversion": 0.9,
+      "shootout_bootstrap_95": [
+        0.6666666666666666,
+        1.0
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "29",
+      "goals": 5,
+      "attempts": 7,
+      "conversion": 0.7142857142857143,
+      "shootout_bootstrap_95": [
+        0.3333333333333333,
+        1.0
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "30",
+      "goals": 5,
+      "attempts": 7,
+      "conversion": 0.7142857142857143,
+      "shootout_bootstrap_95": [
+        0.3333333333333333,
+        1.0
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "31",
+      "goals": 0,
+      "attempts": 3,
+      "conversion": 0.0,
+      "shootout_bootstrap_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "kind": "position",
+      "label": "32",
+      "goals": 3,
+      "attempts": 3,
+      "conversion": 1.0,
+      "shootout_bootstrap_95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "kind": "score_state",
+      "label": "A:ahead",
+      "goals": 1252,
+      "attempts": 1705,
+      "conversion": 0.7343108504398826,
+      "shootout_bootstrap_95": [
+        0.7132583319340535,
+        0.7546710086851707
+      ]
+    },
+    {
+      "kind": "score_state",
+      "label": "A:behind",
+      "goals": 1283,
+      "attempts": 1731,
+      "conversion": 0.7411900635470826,
+      "shootout_bootstrap_95": [
+        0.7194079545358013,
+        0.7623347266721102
+      ]
+    },
+    {
+      "kind": "score_state",
+      "label": "A:level",
+      "goals": 4677,
+      "attempts": 6262,
+      "conversion": 0.7468859789204727,
+      "shootout_bootstrap_95": [
+        0.736366742737779,
+        0.757334709539979
+      ]
+    },
+    {
+      "kind": "score_state",
+      "label": "B:ahead",
+      "goals": 351,
+      "attempts": 469,
+      "conversion": 0.7484008528784648,
+      "shootout_bootstrap_95": [
+        0.7091512050969675,
+        0.7846851716682044
+      ]
+    },
+    {
+      "kind": "score_state",
+      "label": "B:behind",
+      "goals": 4504,
+      "attempts": 6009,
+      "conversion": 0.7495423531369613,
+      "shootout_bootstrap_95": [
+        0.7389674560189844,
+        0.7602855669746962
+      ]
+    },
+    {
+      "kind": "score_state",
+      "label": "B:level",
+      "goals": 2042,
+      "attempts": 2727,
+      "conversion": 0.7488082141547489,
+      "shootout_bootstrap_95": [
+        0.7319612922538454,
+        0.7646643141053793
+      ]
+    }
+  ],
+  "interpretation": "Descriptive observational rates; not causal pressure calibration. Later positions condition on survival. Match bootstrap assumes independent shootouts and does not address repeated team/player/competition dependence."
+}

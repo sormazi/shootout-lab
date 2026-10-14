@@ -1,0 +1,16 @@
+test_authentic_match_invariants_and_counts (test_empirical.EmpiricalTests) ... ok
+test_early_stopping_and_targets (test_lab.ResearchTests) ... ok
+test_forward_exact (test_lab.ResearchTests) ... ok
+test_independent_formula (test_lab.ResearchTests) ... ok
+test_invalid (test_lab.ResearchTests) ... ok
+test_mc (test_lab.ResearchTests) ... ok
+test_probability_conservation (test_lab.ResearchTests) ... ok
+test_small_closed_forms (test_lab.ResearchTests) ... ok
+test_symmetry (test_lab.ResearchTests) ... ok
+test_tables (test_lab.ResearchTests) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.855s
+
+OK
+Browser/Python parity: 15 scenarios passed

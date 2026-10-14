@@ -1,0 +1,2 @@
+const fs=require('fs'),path=require('path'),s=require('../dist/engine.js');
+const fixture=JSON.parse(fs.readFileSync(path.join(__dirname,'parity.json')));for(let f of fixture){let z=s.forward(f.rule,f.model,80);for(let [a,b]of [['win','win_a'],['rounds','rounds_restricted'],['kicks','kicks_restricted'],['sd','sudden_death'],['residual','residual']])if(Math.abs(z[a]-f.result[b])>1e-10)throw Error(a+JSON.stringify(f));}console.log('Browser/Python parity: '+fixture.length+' scenarios passed');

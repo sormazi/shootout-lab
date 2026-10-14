@@ -1,0 +1,24 @@
+{
+  "replication_manuscript": {
+    "url": "https://mpra.ub.uni-muenchen.de/116352/1/MPRA_paper_116352.pdf",
+    "version": "February 2023, MPRA 116352, 26 PDF pages including cover",
+    "sha256": "bb0b4ddc02ec0ce9217c579a1463eb792e879afe9121a6b5ff04ca41cd0b8ee1"
+  },
+  "published_version": {
+    "doi": "10.1080/0025570X.2024.2378681",
+    "separately_audited": false
+  },
+  "empirical": {
+    "doi": "10.1371/journal.pone.0315017",
+    "osf": "https://osf.io/t6qj7/",
+    "provenance": "data/provenance.json"
+  },
+  "rules": "https://www.theifab.com/laws/latest/determining-the-outcome-of-a-match/",
+  "related": [
+    "https://arxiv.org/abs/1806.01114",
+    "https://arxiv.org/abs/1808.06922",
+    "https://arxiv.org/abs/2510.17641"
+  ],
+  "retrieved_date": "2026-10-14",
+  "novelty_status": "candidate extensions; not exhaustive literature review"
+}

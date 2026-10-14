@@ -1,0 +1,267 @@
+{
+  "seed": 20261014,
+  "python": "3.9.6",
+  "runtime_seconds": 9.802411079406738,
+  "uncertainty_sets": {
+    "paper_neighborhood": [
+      {
+        "p": 0.72,
+        "q": 0.57,
+        "order_logit": 0.0,
+        "pressure": 0.0,
+        "fatigue": 0.0,
+        "lineup_a": [],
+        "lineup_b": [],
+        "latent_sd": 0.0
+      },
+      {
+        "p": 0.72,
+        "q": 0.6,
+        "order_logit": 0.0,
+        "pressure": 0.0,
+        "fatigue": 0.0,
+        "lineup_a": [],
+        "lineup_b": [],
+        "latent_sd": 0.0
+      },
+      {
+        "p": 0.72,
+        "q": 0.63,
+        "order_logit": 0.0,
+        "pressure": 0.0,
+        "fatigue": 0.0,
+        "lineup_a": [],
+        "lineup_b": [],
+        "latent_sd": 0.0
+      },
+      {
+        "p": 0.75,
+        "q": 0.57,
+        "order_logit": 0.0,
+        "pressure": 0.0,
+        "fatigue": 0.0,
+        "lineup_a": [],
+        "lineup_b": [],
+        "latent_sd": 0.0
+      },
+      {
+        "p": 0.75,
+        "q": 0.6,
+        "order_logit": 0.0,
+        "pressure": 0.0,
+        "fatigue": 0.0,
+        "lineup_a": [],
+        "lineup_b": [],
+        "latent_sd": 0.0
+      },
+      {
+        "p": 0.75,
+        "q": 0.63,
+        "order_logit": 0.0,
+        "pressure": 0.0,
+        "fatigue": 0.0,
+        "lineup_a": [],
+        "lineup_b": [],
+        "latent_sd": 0.0
+      },
+      {
+        "p": 0.78,
+        "q": 0.57,
+        "order_logit": 0.0,
+        "pressure": 0.0,
+        "fatigue": 0.0,
+        "lineup_a": [],
+        "lineup_b": [],
+        "latent_sd": 0.0
+      },
+      {
+        "p": 0.78,
+        "q": 0.6,
+        "order_logit": 0.0,
+        "pressure": 0.0,
+        "fatigue": 0.0,
+        "lineup_a": [],
+        "lineup_b": [],
+        "latent_sd": 0.0
+      },
+      {
+        "p": 0.78,
+        "q": 0.63,
+        "order_logit": 0.0,
+        "pressure": 0.0,
+        "fatigue": 0.0,
+        "lineup_a": [],
+        "lineup_b": [],
+        "latent_sd": 0.0
+      }
+    ],
+    "includes_null": [
+      {
+        "p": 0.7,
+        "q": 0.5499999999999999,
+        "order_logit": 0.0,
+        "pressure": 0.0,
+        "fatigue": 0.0,
+        "lineup_a": [],
+        "lineup_b": [],
+        "latent_sd": 0.0
+      },
+      {
+        "p": 0.7,
+        "q": 0.625,
+        "order_logit": 0.0,
+        "pressure": 0.0,
+        "fatigue": 0.0,
+        "lineup_a": [],
+        "lineup_b": [],
+        "latent_sd": 0.0
+      },
+      {
+        "p": 0.7,
+        "q": 0.7,
+        "order_logit": 0.0,
+        "pressure": 0.0,
+        "fatigue": 0.0,
+        "lineup_a": [],
+        "lineup_b": [],
+        "latent_sd": 0.0
+      },
+      {
+        "p": 0.75,
+        "q": 0.6,
+        "order_logit": 0.0,
+        "pressure": 0.0,
+        "fatigue": 0.0,
+        "lineup_a": [],
+        "lineup_b": [],
+        "latent_sd": 0.0
+      },
+      {
+        "p": 0.75,
+        "q": 0.675,
+        "order_logit": 0.0,
+        "pressure": 0.0,
+        "fatigue": 0.0,
+        "lineup_a": [],
+        "lineup_b": [],
+        "latent_sd": 0.0
+      },
+      {
+        "p": 0.75,
+        "q": 0.75,
+        "order_logit": 0.0,
+        "pressure": 0.0,
+        "fatigue": 0.0,
+        "lineup_a": [],
+        "lineup_b": [],
+        "latent_sd": 0.0
+      },
+      {
+        "p": 0.8,
+        "q": 0.65,
+        "order_logit": 0.0,
+        "pressure": 0.0,
+        "fatigue": 0.0,
+        "lineup_a": [],
+        "lineup_b": [],
+        "latent_sd": 0.0
+      },
+      {
+        "p": 0.8,
+        "q": 0.7250000000000001,
+        "order_logit": 0.0,
+        "pressure": 0.0,
+        "fatigue": 0.0,
+        "lineup_a": [],
+        "lineup_b": [],
+        "latent_sd": 0.0
+      },
+      {
+        "p": 0.8,
+        "q": 0.8,
+        "order_logit": 0.0,
+        "pressure": 0.0,
+        "fatigue": 0.0,
+        "lineup_a": [],
+        "lineup_b": [],
+        "latent_sd": 0.0
+      }
+    ]
+  },
+  "target_domain": "1<=n<=m<=8",
+  "max_expected_rounds": 8,
+  "mc_scenarios": [
+    {
+      "p": 0.75,
+      "q": 0.75,
+      "order_logit": 0,
+      "pressure": 0.1,
+      "fatigue": 0.0,
+      "lineup_a": [],
+      "lineup_b": [],
+      "latent_sd": 0.15
+    },
+    {
+      "p": 0.75,
+      "q": 0.75,
+      "order_logit": 0.1,
+      "pressure": 0.1,
+      "fatigue": 0.0,
+      "lineup_a": [],
+      "lineup_b": [],
+      "latent_sd": 0.15
+    },
+    {
+      "p": 0.75,
+      "q": 0.75,
+      "order_logit": 0.2,
+      "pressure": 0.1,
+      "fatigue": 0.0,
+      "lineup_a": [],
+      "lineup_b": [],
+      "latent_sd": 0.15
+    }
+  ],
+  "mc_candidates": [
+    {
+      "kind": "standard",
+      "m": 5,
+      "n": 4,
+      "order": "ABAB"
+    },
+    {
+      "kind": "standard",
+      "m": 5,
+      "n": 4,
+      "order": "ABBA"
+    },
+    {
+      "kind": "standard",
+      "m": 5,
+      "n": 4,
+      "order": "catchup"
+    },
+    {
+      "kind": "target",
+      "m": 5,
+      "n": 4,
+      "order": "ABAB"
+    },
+    {
+      "kind": "target",
+      "m": 4,
+      "n": 4,
+      "order": "ABAB"
+    }
+  ],
+  "mc_N": 6000,
+  "mc_horizon": 40,
+  "forward_horizon": 100,
+  "grid_claim": "finite scenario minimax; no continuous-domain certificate",
+  "sha256": {
+    "extension_analysis.py": "2f24e0e7d56bec1cd1c6430bdd9572cbc59b7c6830d845a873e4bf7af4a135d3",
+    "run_experiments.py": "2dee77dfd5819bd95790cfed8672beaecfeb5e6d9b44b8853e1e88abbd7db032",
+    "empirical.py": "940260a9b47d322cc1a688d97cb5bee176c79b7420087bbd35d6e661c2a3d0b2",
+    "lab.py": "65ac6d4a853ff71a6e190ddcaed81cbc5bcfab8ab27832333ac9f6337b7151ed"
+  }
+}
