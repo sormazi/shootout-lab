@@ -2,7 +2,6 @@
 
 A reproducible implementation of the February 2023 Brams–Ismail–Kilgour manuscript with separate empirical replication and qualified candidate extensions. Read [the research note](research_note.md) first. The repository includes the complete code, source data, results, and interface.
 
-![Interactive laboratory](docs/laboratory-preview.jpg)
 
 [Download the complete research archive](downloads/shootout-research-laboratory.zip). Open `dist/index.html` directly, or serve `dist/` locally; the interface is buildless and offline with bundled results. It sends no data to external services.
 
